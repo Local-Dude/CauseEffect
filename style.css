@@ -1,0 +1,38 @@
+.container {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+li {
+    cursor: pointer;
+    text-align: center;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 10px 15px;
+
+}
+
+/* li:hover {
+    color: white;
+} */
+
+.people-menu {
+    display: flex;
+}
+
+.item {
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.disc {
+    border: 1px solid black;
+}
